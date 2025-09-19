@@ -1,0 +1,103 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ByeWind Dashboard Design System - Pixel Perfect Colors */
+
+@layer base {
+  :root {
+    /* Light theme */
+    --background: 0 0% 100%;
+    --foreground: 240 10% 3.9%;
+
+    --page-background: 0 0% 98%;
+    --sidebar-left: 0 0% 98%;
+    --sidebar-right: 0 0% 98%;
+    --header-background: 0 0% 100%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 240 10% 3.9%;
+    --card-header: 0 0% 100%;
+
+    --primary: 221 83% 53%;
+    --primary-foreground: 0 0% 98%;
+
+    --secondary: 240 5% 96%;
+    --secondary-foreground: 240 6% 10%;
+
+    --muted: 240 5% 96%;
+    --muted-foreground: 240 4% 46%;
+
+    --accent: 240 5% 96%;
+    --accent-foreground: 240 6% 10%;
+
+    --border: 240 6% 90%;
+    --input: 240 6% 90%;
+    --ring: 221 83% 53%;
+
+    --success: 142 76% 36%;
+    --warning: 38 92% 50%;
+    --danger: 0 84% 60%;
+    --info: 221 83% 53%;
+
+    --chart-1: 221 83% 53%;
+    --chart-2: 142 76% 36%;
+    --chart-3: 38 92% 50%;
+    --chart-4: 280 100% 70%;
+    --chart-5: 346 100% 68%;
+
+    --radius: 0.75rem;
+  }
+
+  .dark {
+    /* Dark theme - matching the uploaded designs */
+    --background: 240 10% 8%;
+    --foreground: 0 0% 98%;
+
+    --page-background: 240 10% 6%;
+    --sidebar-left: 240 10% 8%;
+    --sidebar-right: 240 10% 8%;
+    --header-background: 240 10% 8%;
+
+    --card: 240 10% 10%;
+    --card-foreground: 0 0% 98%;
+    --card-header: 240 10% 10%;
+
+    --primary: 221 83% 53%;
+    --primary-foreground: 0 0% 98%;
+
+    --secondary: 240 4% 16%;
+    --secondary-foreground: 0 0% 98%;
+
+    --muted: 240 4% 16%;
+    --muted-foreground: 240 5% 64%;
+
+    --accent: 240 4% 16%;
+    --accent-foreground: 0 0% 98%;
+
+    --border: 240 4% 16%;
+    --input: 240 4% 16%;
+    --ring: 221 83% 53%;
+
+    --success: 142 69% 58%;
+    --warning: 38 92% 50%;
+    --danger: 0 72% 51%;
+    --info: 221 83% 53%;
+
+    --chart-1: 221 83% 53%;
+    --chart-2: 142 69% 58%;
+    --chart-3: 38 92% 50%;
+    --chart-4: 280 100% 70%;
+    --chart-5: 346 77% 60%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
