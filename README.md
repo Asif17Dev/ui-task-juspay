@@ -1,6 +1,6 @@
-# Vite Project
+# UI Assignment for Juspay
 
-This is a Vite-powered project.
+This is a Vite-powered project for the UI assignment at Juspay.
 
 ## Prerequisites
 
