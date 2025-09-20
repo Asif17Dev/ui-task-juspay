@@ -5,7 +5,7 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Checkbox } from "@/components/ui/checkbox";
 import { TableCell, TableRow } from "@/components/ui/table";
 import { useTheme } from "next-themes";
-import { Order } from "../../types/order";
+import { Order } from "@/lib/order";
 
 interface OrderRowProps {
   order: Order;
