@@ -48,7 +48,7 @@ export function LocationMap() {
         <div className="relative h-40">
           <ComposableMap
             projection="geoMercator"
-            projectionConfig={{ scale: 120 }}
+            projectionConfig={{ scale: 100 }}
             width={800}
             height={400}
             className="w-full h-full"

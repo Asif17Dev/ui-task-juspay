@@ -39,7 +39,13 @@ export function MetricCard({
       >
         <div className="flex items-end justify-between">
           <div>
-            <p className={cn("text-sm font-medium text-muted-foreground mb-1")}>
+            <p
+              className={cn(
+                "text-sm font-medium mb-1",
+                title === "Customers" && "text-black",
+                title === "Growth" && "text-black"
+              )}
+            >
               {title}
             </p>
             <p className="text-2xl font-semibold">{value}</p>
